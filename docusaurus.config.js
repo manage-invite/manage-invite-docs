@@ -21,12 +21,6 @@ module.exports = {
           activeBasePath: 'docs/guides',
           position: 'right',
         },
-        {
-          to: 'docs/api/interfaces/buttonprops',
-          label: 'API',
-          activeBasePath: 'docs/api',
-          position: 'right',
-        },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/nodegui/vue-nodegui',
@@ -45,11 +39,7 @@ module.exports = {
             {
               label: 'Get Started',
               to: '/docs/guides/1-getting-started',
-            },
-            {
-              label: 'API guide',
-              to: 'docs/api/interfaces/buttonprops',
-            },
+            }
           ],
         },
         {
