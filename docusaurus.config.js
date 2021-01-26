@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: "ignore",
   favicon: 'img/favicon.ico',
-  organizationName: 'nodegui', // Usually your GitHub org/user name.
-  projectName: 'vue-nodegui', // Usually your repo name.
+  organizationName: 'manageinvite', // Usually your GitHub org/user name.
+  projectName: 'manageinvite-new-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'ManageInvite',
@@ -59,11 +59,7 @@ module.exports = {
             {
               label: 'Blog',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/nodegui/vue-nodegui',
-            },
+            }
           ],
         },
       ],

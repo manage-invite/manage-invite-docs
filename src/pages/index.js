@@ -42,7 +42,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.description}>
+        <section className={classnames(styles.column, styles.description)}>
           <div className={classnames("row", styles.descriptionRow)}>
             <div className="col col--6">
               <h3>Easy migration from another bot!</h3>
@@ -53,24 +53,6 @@ function Home() {
               <img src="img/demo-calculator.png" className={styles.demoImg} />
             </div>
           </div>
-        </section>
-        <section className={classnames(styles.column, styles.description)}>
-          <h2>Community Talks</h2>
-          <div className={styles.videoContainer}>
-            <iframe
-              src="https://www.youtube.com/embed/TQKWCH_0lb4"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <a
-            className={styles.caption}
-            href="https://www.youtube.com/watch?v=TQKWCH_0lb4"
-            target="_blank"
-          >
-            Introductory talk at Vue Conf TO 2020
-          </a>
         </section>
       </main>
     </Layout>
