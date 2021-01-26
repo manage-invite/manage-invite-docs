@@ -1,7 +1,7 @@
 module.exports = {
   title: 'ManageInvite',
   tagline: 'Stable, powerful and modern Discord bot to manage your server invites 🚀',
-  url: 'https://vue.nodegui.org',
+  url: 'https://new.docs.manage-invite.xyz',
   baseUrl: '/',
   onBrokenLinks: "ignore",
   favicon: 'img/favicon.ico',
@@ -9,10 +9,10 @@ module.exports = {
   projectName: 'vue-nodegui', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Vue NodeGui',
+      title: 'ManageInvite',
       logo: {
-        alt: 'Vue NodeGui Logo',
-        src: 'img/logo-circle.png',
+        alt: 'ManageInvite Logo',
+        src: 'img/logox200.png',
       },
       items: [
         {
@@ -22,12 +22,6 @@ module.exports = {
           position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
-        {
-          href: 'https://github.com/nodegui/vue-nodegui',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-        },
       ],
     },
     footer: {

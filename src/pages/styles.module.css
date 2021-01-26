@@ -49,6 +49,7 @@
 
 .demoImg {
   max-height: 300px;
+  border-radius: 50px;
 }
 
 .descriptionRow {
@@ -111,4 +112,8 @@
   .caption {
     margin-top: 0.5rem;
   }
+}
+
+.links {
+  color: #a53636;
 }
