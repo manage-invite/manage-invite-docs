@@ -40,12 +40,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Spectrum',
-              href: 'https://spectrum.chat/nodegui',
+              label: 'Dashboard',
+              href: 'https://dash.manage-invite.xyz',
             },
             {
-              label: 'Medium',
-              href: 'https://medium.com/nodegui',
+              label: 'Discord',
+              href: 'https://manage-invite.xyz/discord',
             },
             {
               label: 'Twitter',
@@ -63,7 +63,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Shubham Zanwar.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Androz2091.`,
     },
     googleAnalytics: {
       trackingID: "UA-177685902-1"
