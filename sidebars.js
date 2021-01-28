@@ -7,7 +7,8 @@ module.exports = {
             collapsed: false,
             items: [
                 'guides/role-rewards',
-                'guides/logs-messages'
+                'guides/logs-messages',
+                'guides/migrate'
             ]
         }
     ]
