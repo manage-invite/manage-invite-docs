@@ -12,7 +12,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Build performant, native and cross-platform desktop applications with Vue 🚀">
+      description="Stable, powerful and modern Discord bot to manage your server invites 🚀">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <img src="img/logox200.png" height="200px" width="200px" />
