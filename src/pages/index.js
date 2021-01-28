@@ -34,7 +34,7 @@ function Home () {
                 <section className={styles.description}>
                     <div className={classnames('row', styles.descriptionRow)}>
                         <div className={classnames('col col--6', styles.imgColumn)}>
-                            <img src="img/sample-code.png" className={styles.demoImg} />
+                            <img src="img/example-invites.png" className={styles.demoImg} />
                         </div>
                         <div className="col col--6">
                             <h3>Track regular, bonus, fake and leaves invites!</h3>
@@ -50,7 +50,7 @@ function Home () {
                             <p>Click <a href="https://www.qt.io/" target="_blank" rel="noreferrer" className={styles.links}>here</a> to learn more about this command 🚀</p>
                         </div>
                         <div className={classnames('col col--6', styles.imgColumn)}>
-                            <img src="img/demo-calculator.png" className={styles.demoImg} />
+                            <img src="img/example-sync.png" className={styles.demoImg} />
                         </div>
                     </div>
                 </section>

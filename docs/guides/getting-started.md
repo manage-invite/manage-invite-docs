@@ -19,7 +19,7 @@ You can access it by clicking [here](https://dash.manage-invite.xyz).
 
 To enable join messages, log in to the dashboard and open the server settings page of your dashboard.
 
-![Screenshot of the ManageInvite dashboard](/img/dashboard_screen.png)
+![Screenshot of the ManageInvite dashboard](/img/example-dashboard.png)
 
 You can now use the `Join Messages` box to configure them. Select the channel, and click `Enable Messages`. Congratulations, join messages are now enabled! 🎉
 
