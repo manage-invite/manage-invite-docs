@@ -24,7 +24,7 @@ function Home() {
                 'button button--outline button--secondary button--lg text-white',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/guides/1-getting-started')}>
+              to={useBaseUrl('docs/guides/getting-started')}>
               Get Started
             </Link>
           </div>
