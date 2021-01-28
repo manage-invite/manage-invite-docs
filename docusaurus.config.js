@@ -77,9 +77,6 @@ module.exports = {
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Androz2091.`
         },
-        googleAnalytics: {
-            trackingID: 'UA-177685902-1'
-        },
         algolia: {
             apiKey: '4ecc8a4a6fecbd2b21ab6942a9e0d45f',
             indexName: 'vue-nodegui',
