@@ -7,6 +7,14 @@ module.exports = {
     favicon: 'img/favicon.ico',
     organizationName: 'manageinvite',
     projectName: 'manageinvite-new-docs',
+    plugins: [
+        [
+            require.resolve('docusaurus-gtm-plugin'),
+            {
+                id: 'GTM-KHX7V26'
+            }
+        ]
+    ],
     themeConfig: {
         navbar: {
             title: 'ManageInvite',
