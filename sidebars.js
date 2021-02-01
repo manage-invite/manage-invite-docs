@@ -3,7 +3,7 @@ module.exports = {
         'guides/getting-started',
         {
             type: 'category',
-            label: 'Features',
+            label: 'Guides',
             collapsed: false,
             items: [
                 'guides/role-rewards',
