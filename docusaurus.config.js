@@ -61,7 +61,7 @@ module.exports = {
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/node_gui'
+                            href: 'hhttps://twitter.com/ManageInviteBot'
                         }
                     ]
                 },
