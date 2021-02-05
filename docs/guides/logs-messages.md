@@ -63,17 +63,21 @@ You can also configure the messages sent when the bot can't find who invited the
 
 ManageInvite also allows you to send embed messages. Here is an example:
 
-![Example Embed Message](/img/example-embed-message.png)
+![Example Embed Message](/img/example-embed-result.png)
 
 You can create an embed message using this website: **https://embed-generator.manage-invite.xyz**. Create your embed, preview it and copy the JSON code at the bottom of the page.
 
 Create your embed:
 
-![Example Embed Generator Inputs](/img/example-embed-generator-inputs.png)
+![Example Embed Generator Inputs](/img/example-embed-editor.png)
+
+The preview will look like this:
+
+![Example Embed Generator Preview](/img/example-embed-preview.png)
 
 Then, copy it using this button:
 
-![Example Embed Generator Json](/img/example-embed-generator-json.png)
+![Example Embed Generator Json](/img/example-embed-json.png)
 
 Execute the `+configjoin` (or `+configleave` and `+configjoindm`) command or the dashboard and set the message to the text you copied before:
 
