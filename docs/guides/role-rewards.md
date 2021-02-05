@@ -32,15 +32,9 @@ You can also delete a role using the `+removerank` command. For example, if I no
 
 ManageInvite also allows you to go further in the configuration of role rewards.
 
-If you want the members to keep only their highest roles, you can use the `+set-stacked-ranks` command:
+If you want the members to keep only their highest roles, you can use the `+set-stacked-ranks` command and if you want the members to keep their roles even if they loose invites, you can use the `+set-keep-ranks` command:
 
-![Example Stacked Ranks](/img/example-stacked-roles.png)
-
-If you want the members to keep their roles even if they loose invites, you can use the `+set-keep-ranks` command:
-
-:::caution
-Image can't be loaded
-:::
+![Example Rank Conf](/img/example-ranks-conf.png)
 
 These settings are also editable using the dashboard:
 
