@@ -30,21 +30,21 @@ Here is a list of the available variables:
 | **Name** | **Description** | **Example** |
 |----------|-----------------|-------------|
 |{user}|The mention of the user who joined the server|@Nooby
-|{user.name}|The name of the user who joined the server|Noody
-|{user.tag}|The name and the discriminator of the user who joined the server|Nooby#0000
-|{user.id}|The ID of the user who joined the server|422820341791064085
-|{user.createdat}|The time elapsed since the creation of the account of the user who joined the server|3 days ago
-|{user.numJoins}|The total number of joins of the user who joined the server|1
+|{userName}|The name of the user who joined the server|Noody
+|{userTag}|The name and the discriminator of the user who joined the server|Nooby#0000
+|{userId}|The ID of the user who joined the server|422820341791064085
+|{userCreatedAt}|The time elapsed since the creation of the account of the user who joined the server|3 days ago
+|{userNumJoins}|The total number of joins of the user who joined the server|1
 |{server}|The name of the server|Nooby's world
-|{server.count}|The new number of members in the server|950
+|{serverMemberCount}|The new number of members in the server|950
 |{inviter}|The mention of the member who invited them|@TheFriendOfNooby
-|{inviter.name}|The name of the member who invited them|TheFriendOfNooby
-|{inviter.tag}|The name and the discriminator of the member who invited them|TheFriendOfNooby#0000
-|{inviter.id}|The ID of the member who invited them|557445719892688897
-|{inviter.invites}|The new number of invites of the member who invited them|100
-|{invite.code}|The code of the invite used to invite the user|hw87VUQ
-|{invite.url}|The URL of the invite used to invite the user|https://discord.gg/hw87VUQ
-|{invite.channel}|The channel in which the invite used to invite the user was created|#chat
+|{inviterName}|The name of the member who invited them|TheFriendOfNooby
+|{inviterTag}|The name and the discriminator of the member who invited them|TheFriendOfNooby#0000
+|{inviterId}|The ID of the member who invited them|557445719892688897
+|{inviterInvites}|The new number of invites of the member who invited them|100
+|{inviteCode}|The code of the invite used to invite the user|hw87VUQ
+|{inviteUrl}|The URL of the invite used to invite the user|https://discord.gg/hw87VUQ
+|{inviteChannel}|The channel in which the invite used to invite the user was created|#chat
 
 You can, for example, use:
 ```
