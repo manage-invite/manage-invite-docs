@@ -54,14 +54,25 @@ function Home () {
                         </div>
                     </div>
                 </section>
-                <section className={classnames(styles.column, styles.description)}>
+                <section className={classnames(styles.description)}>
                     <div className={classnames('row', styles.descriptionRow)}>
                         <div className={classnames('col col--6', styles.imgColumn)}>
-                            <img src="img/example-ranks-conf.png" className={styles.demoImg} />
+                            <img src="img/example-dashboard.png" className={styles.demoImg} />
                         </div>
                         <div className="col col--6">
+                            <h3>Complete dashboard</h3>
+                            <p>ManageInvite has a complete and beautiful dashboard that allows you to configure the bot <b>very</b> easily. You can access it at <b><a href="https://manage-invite.xyz">https://manage-invite.xyz</a></b>!</p>
+                        </div>
+                    </div>
+                </section>
+                <section className={classnames(styles.column, styles.description)}>
+                    <div className={classnames('row', styles.descriptionRow)}>
+                        <div className="col col--6">
                             <h3>Advanced configuration</h3>
-                            <p>ManageInvite allows you to go very far in configuring the bot. You can modify many parameters so that the bot can perfectly meet your needs and work as you wish. All the settings are explained in the documentation and our team is available to answer your question on Discord if you can not find what you are looking for.</p>
+                            <p>ManageInvite allows you to go very far in configuring the bot using our dashboard. You can modify many parameters so that the bot can perfectly meet your needs and work as you wish. All the settings are explained in the documentation and our team is available to answer your question on Discord if you can not find what you are looking for.</p>
+                        </div>
+                        <div className={classnames('col col--6', styles.imgColumn)}>
+                            <img src="img/fake-threshold.png" className={styles.demoImg} />
                         </div>
                     </div>
                 </section>

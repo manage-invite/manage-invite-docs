@@ -6,7 +6,6 @@ module.exports = {
             label: 'Guides',
             collapsed: false,
             items: [
-                'guides/role-rewards',
                 'guides/logs-messages',
                 'guides/migrate'
             ]
